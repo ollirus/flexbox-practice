@@ -1,4 +1,4 @@
-package com.flexbox;
+package com.rnpractice;
 
 import android.app.Application;
 

@@ -19,7 +19,7 @@ const instructions = Platform.select({
     'Shake or press menu button for dev menu',
 });
 
-export default class App extends Component<{}> {
+export default class Flexbox extends Component<{}> {
   render() {
     return (
       <View style={styles.container}>
@@ -34,19 +34,7 @@ export default class App extends Component<{}> {
           // flexGrow: 4,
           // flexShrink: 2,
           }]} />
-        {/* <View style={[styles.box, {backgroundColor: 'steelblue'}]} />
-
-        <View style={[styles.box, {backgroundColor: 'powderblue'}]} />
-        <View style={[styles.box, {backgroundColor: 'skyblue'}]} />
-        <View style={[styles.box, {backgroundColor: 'steelblue'}]} />
-
-        <View style={[styles.box, {backgroundColor: 'powderblue'}]} />
-        <View style={[styles.box, {backgroundColor: 'skyblue'}]} />
-        <View style={[styles.box, {backgroundColor: 'steelblue'}]} />
-
-        <View style={[styles.box, {backgroundColor: 'powderblue'}]} />
-        <View style={[styles.box, {backgroundColor: 'skyblue'}]} />
-        <View style={[styles.box, {backgroundColor: 'steelblue'}]} /> */}
+        {/* <View style={[styles.box, {backgroundColor: 'steelblue'}]} /> */}
       </View>
     );
   }

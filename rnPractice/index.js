@@ -1,4 +1,4 @@
 import { AppRegistry } from 'react-native';
-import Flexbox from './examples/Flexbox';
+import App from './examples/example1/App';
 
-AppRegistry.registerComponent('rnPractice', () => Flexbox);
+AppRegistry.registerComponent('rnPractice', () => App);

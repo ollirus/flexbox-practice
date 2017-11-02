@@ -19,7 +19,8 @@ const instructions = Platform.select({
     'Shake or press menu button for dev menu',
 });
 
-export default class Flexbox extends Component<{}> {
+// Flexbox example
+export default class App extends Component<{}> {
   render() {
     return (
       <View style={styles.container}>
